@@ -8,7 +8,7 @@ function addUser() {
      localStorage.setItem("player1score",0);
      localStorage.setItem("player2score",0);
 
-     window.location="main.html";
+     
     };
 
 function test(){
@@ -22,4 +22,5 @@ function login() {
     var secondplayer = document.getElementById("player2").value
     localStorage.setItem("player1",firstplayer);
     localStorage.setItem("player2",secondplayer);
+    window.location="main.html";
 }
